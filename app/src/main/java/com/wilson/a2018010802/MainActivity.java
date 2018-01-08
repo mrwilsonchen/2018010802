@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         mylist.add(m3);
 
         SimpleAdapter adapter = new SimpleAdapter(MainActivity.this,
-                mylist, R.layout.myitem, new String[] {"city", "code"},
+                mylist, R.layout.layout2, new String[] {"city", "code"},
                 new int[] {R.id.textView, R.id.textView2});
         /*
           SimpleAdapter adapter = new SimpleAdapter(MainActivity.this,
